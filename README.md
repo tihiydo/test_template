@@ -1,3 +1,5 @@
+# Було би краще, дати мені PHP завдання. Верстку встиг зробити не всю, витратив час здебільшого щоб хоч +- на адаптив
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
