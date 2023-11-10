@@ -1,0 +1,138 @@
+.logo
+{
+    width: 264px;
+    height: 76px;
+    position: absolute;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.root
+{
+    position: relative;
+    word-break: break-word;
+}
+
+.navbar
+{
+    transform: translateX(-50%);
+    left: 50%;
+    position: fixed;
+    text-align: center;
+    width: 47rem;
+    background-color: #fefdf8a6;
+    margin-left: 2rem;
+    padding: 0.5rem 0;
+    backdrop-filter: blur(3px)!important;
+    border-radius: 10px;
+    z-index: 20;
+}
+
+.navbar ul
+{
+    display: inline-flex;
+    align-self: center;
+    column-gap: 40px;
+    list-style: none;
+    padding: 0;
+    font-weight: 500;
+}
+
+.navbar ul > li:not(:first-child):before {
+    content: "";
+    height: 100%;
+    border: 1px solid #bbbbbb;
+    margin: 0 40px 0 0;
+}
+
+
+nav
+{
+    margin-top: 0.5rem;
+}
+
+.firstBlock
+{
+    font-weight: 500;
+}
+
+.firstBlock button
+{
+    background-color: rgb(242, 255, 0);
+    text-align: center;
+    padding: 1.2rem;
+    min-width: 20rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 830px) 
+{
+    .navbar 
+    {
+        display: none;
+    }
+}
+
+.fblock
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.readMore
+{
+    cursor: pointer;
+}
+
+.readMore span
+{
+    position: absolute;
+    bottom: 7rem;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.readMore svg
+{
+    position: absolute;
+    left: 50%;
+    bottom: 4rem;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.secondBlock
+{
+    padding: 0 2rem;
+}
+
+.lastBlock
+{
+
+}
+
+.secondBlockBody
+{
+    display: inline-flex
+}
+
+.secondBlock img
+{
+    border-radius: 20px;
+    max-height: 256px;
+    float: left;
+}
+
+.secondBlockBodyDescription
+{
+    font-weight: 500px;
+    min-width: 12rem;
+    word-break: break-word;
+    margin: 1rem 20px;
+}
+
+.lastBlockBody
+{
+    background-color: #f1ff00;
+}
