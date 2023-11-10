@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 import { Avatar } from "@/components/ui/avatar";
 import logo from '@/images/logo.webp';
 import styles from '@/styles/Home.module.css'
+import background from '@/images/background.png';
 import { MoveDown } from 'lucide-react';
 import secondBlock from '@/images/secondBlock.png';
 
@@ -13,6 +14,7 @@ export default function Home()
     <>
         <div className={styles.root}>
         <div className={styles.fblock}>
+                <img src={background} className={styles.backgroundimg}></img>
                 <nav>
                     <img src={logo} className={styles.logo}/>
                     <div className={styles.navbar}>
@@ -25,9 +27,9 @@ export default function Home()
                         </ul>
                     </div>
                 </nav>
-                <div className={`${styles.firstBlock} pt-72 sm:pl-12 p-0 text-center sm:text-start `}>
+                <div className={`${styles.firstBlock} pt-60 sm:pl-12 p-0 text-center sm:text-start `}>
                     <h5 className="font-bold">Вебстудія №1 з розробки сайтів</h5>
-                    <h1 className="text-6xl font-extrabold" >Приєднуйтесь до нашої IT-команди</h1>
+                    <h1 className="text-6xl font-extrabold" >Приєднуйтесь до нашої<br></br>IT-команди</h1>
                     <h4 className="font-bold mt-5">Відкрийте нові перспективи чогось там чогось</h4>
                     <button className='mt-5'>Спробувати свої сили</button>
                 </div>

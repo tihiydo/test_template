@@ -7,6 +7,15 @@
     padding-left: 2rem;
 }
 
+.backgroundimg
+{
+    z-index: -99;
+    right: 0px;
+    width: 400px;
+    top: 158px;
+    position: absolute;
+}
+
 .root
 {
     position: relative;
@@ -68,6 +77,11 @@ nav
 @media screen and (max-width: 830px) 
 {
     .navbar 
+    {
+        display: none;
+    }
+
+    .backgroundimg
     {
         display: none;
     }
